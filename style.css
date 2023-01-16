@@ -1,0 +1,135 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#header{
+    position:fixed;
+    margin-top:0px;
+    top:0;
+    width:100%;
+    height: 70px;
+    background-color: red;
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 20%);
+}
+
+.header1{
+    display: flex;
+    align-items:center;
+    margin-top: 3px;
+    color:rgb(255, 250, 224);
+    margin-left: 10px;
+}
+
+.header1 h3{
+    word-spacing: -5px;
+    margin-left:5px;
+    font-size:30px;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.header2 i{
+    color: rgb(195, 246, 255);
+    width: 20px;
+    margin-left: 5px;
+}
+
+.header2 #loca, #city{
+    margin-left: 10px;
+}
+
+#loca{
+    font-size: large;
+    font-weight:600;
+    color: rgb(255, 255, 209);
+}
+
+#city{
+    color: rgb(114, 245, 0);
+    font-weight: bold;
+    height: 15px;
+}
+
+.header3{
+    margin-left: 15px;
+    display: flex;
+    align-content: center;
+}
+
+.header3 select {
+    background-color: rgb(195, 240, 255);
+    padding: 8px 5px;
+    color: rgb(158, 158, 158);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.header3 input{
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 0px solid rgb(0, 0, 0);
+    border-right: 0px solid rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 0px;
+    padding-left: 5px;
+}
+
+.header3 i{
+    padding: 9px 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    color: white;
+    background-color: rgb(209, 248, 100);
+    height: 36px;
+    width: 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.header4{
+    display: flex;
+    flex-direction: center;
+    margin-left: 10px;
+}
+
+.header4 img{
+    width: 50px;
+}
+
+.headerlast {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.headerlast i{
+    color: rgb(240, 240, 240);
+}
+
+.header5 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header5 i{
+    color: rgb(240, 240, 240);
+}
+
+.header6 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.header6 i{
+    color: rgb(240, 240, 240);
+}
