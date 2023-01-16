@@ -190,16 +190,16 @@
 
 .workingarea .line{
     background-color: white;
-    width: 400px;
+    width: 320px;
     padding: 15px 15px;
-    margin: 200px 10px 10px 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .workingarea .line img{
-    width: 370px;
+    width: 290px;
 }
 
 .workingarea .line a{
@@ -214,5 +214,6 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin: 200px 0px 10px 0px;
     justify-content: space-around;
 }
