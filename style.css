@@ -209,3 +209,10 @@
     font-size: large;
     padding-top: 10px;
 }
+
+.workingarea2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
