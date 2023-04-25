@@ -270,12 +270,30 @@ img{
 #frame1:checked~#slides .inner {
     margin-left: 0;
 }
+#frame4:checked~#slides .inner {
+    margin-left: 0;
+}
+#frame7:checked~#slides .inner {
+    margin-left: 0;
+}
 
 #frame2:checked~#slides .inner {
     margin-left: -100%;
 }
+#frame5:checked~#slides .inner {
+    margin-left: -100%;
+}
+#frame8:checked~#slides .inner {
+    margin-left: -100%;
+}
 
 #frame3:checked~#slides .inner {
+    margin-left: -200%;
+}
+#frame6:checked~#slides .inner {
+    margin-left: -200%;
+}
+#frame9:checked~#slides .inner {
     margin-left: -200%;
 }
 
@@ -325,10 +343,38 @@ img{
     margin: 0 -50px 0 0;
     display: block;
 }
+#frame4:checked~#controls label:nth-child(2),
+#frame5:checked~#controls label:nth-child(3),
+#frame6:checked~#controls label:nth-child(1){
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+#frame7:checked~#controls label:nth-child(2),
+#frame8:checked~#controls label:nth-child(3),
+#frame9:checked~#controls label:nth-child(1){
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
 
 #frame1:checked~#controls label:nth-last-child(2),
 #frame2:checked~#controls label:nth-last-child(3),
 #frame3:checked~#controls label:nth-last-child(1){
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+#frame4:checked~#controls label:nth-last-child(2),
+#frame5:checked~#controls label:nth-last-child(3),
+#frame6:checked~#controls label:nth-last-child(1){
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+#frame7:checked~#controls label:nth-last-child(2),
+#frame8:checked~#controls label:nth-last-child(3),
+#frame9:checked~#controls label:nth-last-child(1){
     float: left;
     margin: 0 0 0 -50px;
     display: block;
@@ -351,6 +397,16 @@ img{
 #frame1:checked~#bullets label:nth-child(1),
 #frame2:checked~#bullets label:nth-child(2),
 #frame3:checked~#bullets label:nth-child(3){
+    background-color: #444;
+}
+#frame4:checked~#bullets label:nth-child(1),
+#frame5:checked~#bullets label:nth-child(2),
+#frame6:checked~#bullets label:nth-child(3){
+    background-color: #444;
+}
+#frame7:checked~#bullets label:nth-child(1),
+#frame8:checked~#bullets label:nth-child(2),
+#frame9:checked~#bullets label:nth-child(3){
     background-color: #444;
 }
 
